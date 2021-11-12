@@ -26,6 +26,8 @@ var (
 )
 
 func main() {
+	println("Starting app-go-prom on port :2112")
+
 	recordMetrics()
 
 	http.Handle("/metrics", promhttp.Handler())
