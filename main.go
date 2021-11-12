@@ -1,3 +1,5 @@
+//Ref: https://prometheus.io/docs/guides/go-application/
+
 package main
 
 import (
